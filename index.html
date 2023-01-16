@@ -1,10 +1,72 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <title>Тарас Цюрка</title>
-  <link rel="icon" href="./favicon.ico" type="image/x-icon" sizes="any" />  
-</head>
-<body>
-<h1 align="center">The first attempt</h1>
-</body>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!--
+      Следующий мета тег "viewport" очень важен для правильного отображения "отзывчивых сайтов" на разных устройствах.
+      Браузеры хотят быть очень услужливыми и пытатться помочь нам, отображая сайты совсем не так, как нужно.
+      Совсем как "Двое из ларца"
+
+      Например - попытаться отобразить всю страницу разом, хотя она должна прокручиваться на 10 экранов,
+      или увеличить шрифт непонятным образом, когда мы переворачиваем телефон горизонтально 
+      1. width=device-with - говорит браузеру "дружище, ширина моей страницы ровно такая, какой ширины твой экран.
+      Не надо ничего подгонять, я сам этим займусь"
+      2. initial-scale=1 - говорит браузеру "не вздумай ничего приближать/отдалять по своему усмотрению, я сам
+      озабочусь тем, чтобы при разной ширине всё отображалось хорошо"
+
+      https://www.w3schools.com/css/css_rwd_viewport.asp
+    -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+       <!--
+    Тайтл отобржается как название закладки в барузере
+    -->
+    <title>Тарас Цюрка</title>
+    <link rel="icon" href="./favicon.ico" type="image/x-icon" sizes="any" />
+    <link rel="stylesheet" href="./normalize.css" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="name">Тарас Цюрка</div>
+
+    <div class="block">
+      <div class="block-title">на связи</div>
+      <div class="block-entries">
+        <div class="entry">
+          <a href="mailto:taras.tsyurka@yandex.ru">taras.tsyurka@yandex.ru</a>
+        </div>
+        <div class="entry">
+          <a href="https://www.facebook.com/ttsyurka/" target="_blank">facebook</a>
+        </div>
+        <div class="entry">
+          <a href="https://www.linkedin.com/in/taras-tsyurka" target="_blank">
+            linkedin
+          </a>
+        </div>
+        <div class="entry">
+          <a href="https://github.com/TTsyurka" target="_blank">git</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="block">
+      <div class="block-title">чем занимаюсь</div>
+      <div class="entry">
+        <a href="https://ekaterinburg.hh.ru/resume/442b5b55ff0b98231e0039ed1f35437368326e" target="_blank"> ищу работу </a>
+      </div>
+      
+      <div class="entry">
+        <a
+          href="https://www.youtube.com/channel/UCKvm0TxaoEgp_g2fztKf25g"
+          target="_blank">
+          веду канал про виски (youtube)
+        </a>
+      </div>
+      <div class="entry">
+        <a href="https://www.flickr.com/photos/taras_tsyurka/collections/72157635706034264/" target="_blank">
+          путешествую (фотографии)
+        </a>
+      </div>
+    </div>
+  </body>
 </html>
