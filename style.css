@@ -123,6 +123,7 @@ https://developer.mozilla.org/ru/docs/Web/CSS/@media
   font-size: 6vw;
   margin-bottom: 3.333vw;
   text-align: center;
+  font-weight: bold;
 }
 
 .entry {
@@ -197,13 +198,13 @@ a:hover {
   }
 
   .block-title {
-    line-height: 3.906vw;
-    font-size: 3.333vw;
+    line-height: 4vw;
+    font-size: 3vw;
     margin-bottom: 2.5vw;
   }
 
   .entry {
-    line-height: 6vw;
-    font-size: 4vw;
+    line-height: 4vw;
+    font-size: 3vw;
   }
 }
