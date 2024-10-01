@@ -111,15 +111,15 @@ https://developer.mozilla.org/ru/docs/Web/CSS/@media
 .block-title {
   color: rgba(240, 240, 240, 0.6);
   line-height: 6vw;
-  font-size: 6vw;
+  font-size: 5vw;
   margin-bottom: 3.333vw;
   text-align: center;
   font-weight: bold;
 }
 
 .entry {
-  line-height: 3vw;
-  font-size: 2vw;
+  line-height: 4vw;
+  font-size: 4vw;
   margin-bottom: 1.667vw;
 }
 
