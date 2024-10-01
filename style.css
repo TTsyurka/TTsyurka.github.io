@@ -118,8 +118,8 @@ https://developer.mozilla.org/ru/docs/Web/CSS/@media
 }
 
 .entry {
-  line-height: 1vw;
-  font-size: smaller;
+  line-height: 3vw;
+  font-size: 2vw;
   margin-bottom: 1.667vw;
 }
 
@@ -172,7 +172,7 @@ a:hover {
   }
 }
 
-/* Медиа query для десктопов, срабатывает при достижении 1440px  */
+Медиа query для десктопов, срабатывает при достижении 1440px
 
 @media screen and (min-width: 1440px) {
   body {
